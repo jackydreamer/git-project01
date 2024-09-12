@@ -1,0 +1,43 @@
+.card:hover{
+    background-color: tomato;
+}
+
+.card__title{
+    background-color: rgb(43, 226, 122);
+}
+.card--margin:hover{
+    margin: 20px;
+
+}
+a:hover{
+    
+    background-color: black;
+    color: beige;
+    border: 2px;
+    text-decoration: none;
+    padding: 10px;
+}   
+
+a:active{
+    background-color: tomato;
+}
+.ejemplo :last-child{
+    background-color: yellow;
+}
+
+.ejemplo-tres{
+    background-color: aqua;
+}
+
+.ejemplo-tres h4:first-of-type{
+
+    background-color: rgb(255, 192, 227);
+}
+
+.ejemplo-cuatro{
+    background-color: blueviolet;
+}
+.ejemplo-cuatro :nth-child(-2n+4){
+background-color: black;
+}
+    
